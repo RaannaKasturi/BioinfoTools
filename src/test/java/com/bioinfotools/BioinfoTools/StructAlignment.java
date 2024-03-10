@@ -10,11 +10,9 @@ import org.biojava.nbio.structure.align.gui.jmol.StructureAlignmentJmol;
 import org.biojava.nbio.structure.align.util.AtomCache;
 
 public class StructAlignment {
-
     public static void main(String[] args) throws IOException {
         // Localizing PDB Files
         System.setProperty("PDB_DIR", "C:/Users/raanna/Desktop/BioinfoTools/BioinfoTools/assets/structures");
-
         // Initialize & Set AtomCache for StructureIO
         AtomCache cache = new AtomCache();
         StructureIO.setAtomCache(cache);
@@ -22,7 +20,6 @@ public class StructAlignment {
         try (Scanner sc = new Scanner(System.in)) {
         	System.out.print("Enter PDB ID: ");
 			String PDBID = sc.next();
-
 			try {
 			    // Load the structure for PDB ID "4hhb"
 			    Structure struct = StructureIO.getStructure(PDBID);
