@@ -2,7 +2,6 @@ package com.bioinfotools.BioinfoTools;
 
 import java.io.IOException;
 import java.util.*;
-import org.biojava.nbio.structure.Atom;
 import org.biojava.nbio.structure.*;
 import org.biojava.nbio.structure.align.StructureAlignment;
 import org.biojava.nbio.structure.align.StructureAlignmentFactory;

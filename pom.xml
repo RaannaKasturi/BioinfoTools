@@ -57,6 +57,11 @@
 	    <artifactId>biojava-modfinder</artifactId>
 	    <version>7.1.1</version>
 	</dependency>
-
+	<!-- https://mvnrepository.com/artifact/org.biojava/biojava-ws -->
+	<dependency>
+	    <groupId>org.biojava</groupId>
+	    <artifactId>biojava-ws</artifactId>
+	    <version>7.1.1</version>
+	</dependency>
   </dependencies>
 </project>
